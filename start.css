@@ -1,0 +1,146 @@
+﻿div.background
+{
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 85%;
+	margin: 2%;
+	overflow: auto;
+	position: relative;
+}
+div.logout
+{
+	position: fixed;
+	top: 6px;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	font-size: 30px;
+}
+	a.logout
+	{
+		padding: 3px;
+	}
+div.head
+{
+	top: 0px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	padding: 5px;
+}
+
+
+div.new
+{
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	margin: auto;
+	width:  100%;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+a
+{
+	border-style: solid;
+	border-width: 2px;
+}
+a.new
+{
+	padding: 3px;
+}
+a:hover
+{
+	color: red;
+	text-shadow: 5px 5px 10px #FF0000;
+}
+div.ship
+{
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	font-size: 22px;
+	position: relative;
+	height: 115px;
+	text-align: center;
+}
+div.ship:hover
+{
+	background-color: rgba(100, 100, 100, 1);
+}
+div.start
+{
+	position: absolute;
+	bottom: 0px;
+	border-top-style: solid;
+	border-top-width: 2px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+div.iden
+{
+	text-align: right;
+	position: absolute;
+	left: 0;
+	display: inline;
+	border-right-style: solid;
+	border-right-width: 1px;
+	padding: 7px;
+	width: 25%;
+	overflow-x: auto;
+}
+div.activity
+{
+	padding: 7px;
+	padding-top: 0px;
+	position: absolute;
+	right: 0px;
+	display: inline;
+}
+div.shipdata
+{
+	position: absolute;
+	left: 27%;
+	width: 45%;
+	display: inline;
+	padding: 7px;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+div.money
+{
+	width: 230px;
+	text-align: center;
+	left: 73%;
+	position: absolute;
+	margin: auto;
+	display: inline;
+	padding: 7px;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+a.start
+{
+	padding: 2px;
+	border-style: solid;
+	padding: 5px;
+	border-width: 2px;
+}
+a.activity
+{
+	font-size: 18px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+	line-height: 32px;
+}
+a.activity:hover
+{
+	border-width: 2px;
+	font-weight: bold;
+}

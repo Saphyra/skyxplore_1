@@ -1,0 +1,45 @@
+﻿div.container
+{
+	background-color: rgba(0,0,0,0.5);
+	border-style: ridge;
+	border-width: 5px;
+	margin-left: 20%;
+	position: fixed;
+	width: 60%;
+	max-height: 84%;
+	overflow-y: auto;
+}
+	div.containertitle
+	{
+		border-bottom-style: ridge;
+		border-bottom-width: 5px;
+		text-align: center;
+		font-size: 50px;
+	}
+	
+	div.lootcontainer
+	{
+		margin: 5px;
+	}
+		div.loottitle
+		{
+			font-size: 26px;
+			text-align: center;
+			text-decoration: underline;
+		}
+	
+	
+	
+div.back
+{
+	position: fixed;
+	bottom: 20px;
+	left: 48%;
+}
+	a.back
+	{
+		font-size: 30px;
+		border-style: ridge;
+		border-width: 5px;
+		padding: 5px;
+	}

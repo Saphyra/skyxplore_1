@@ -1,0 +1,296 @@
+﻿a
+{
+	border-style: solid;
+	border-width: 2px;
+	padding: 3px;
+}
+select
+{
+	color: white;
+	background-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	outline: none;
+	text-align: center;
+	max-width: 23%;
+}
+select.long
+{
+	max-width: 40%;
+}
+input.checkbox
+{
+	width: 20px;
+	height: 20px;
+	border-color: darkblue;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	background-color: white;
+	outline: none;
+}
+	input[disabled='disabled']
+	{
+		border-color: grey;
+	}
+
+table.container
+{
+	position: relative;
+	left: -13px;
+	width: 101.5%;
+	height: 90%;
+	margin: auto;
+}
+	td.container
+	{
+		width: 32%;
+	}
+	td.shipcontainer
+	{
+		width: 35%;
+	}
+		div.container
+		{
+			border-style: ridge;
+			border-width: 4px;
+			position: relative;
+			top: -30px;
+			height: 103%;
+			background-color: black;
+			margin: 2px;
+			overflow-y: auto;
+		}
+			div.containertitle
+			{
+				text-align: center;
+				font-size: 30px;
+				border-bottom-style: ridge;
+				border-bottom-width: 3px;
+			}
+				div.rank
+				{
+					font-size: 20px;
+				}
+
+div.bars
+{
+	position: relative;
+	left: -2px;
+	margin: 3px;
+	margin-bottom: 10px;
+}
+	div.bar
+	{
+		position: relative;
+		border-style: ridge;
+		border-width: 2px;
+		width: 100%;
+		border-radius: 10px 10px 10px 10px;
+		margin-bottom: 1px;
+		height: 16px;
+		text-align: left;
+	}
+	img.bar
+		{
+			position: relative;
+			height: 100%;
+			border-radius: 10px 10px 10px 10px;
+		}
+		div.bartext
+		{
+			position: absolute;
+			right: 0px;
+			display: inline;
+			width: 100%;
+			text-align: center;
+			font-size: 14px;
+			top: 0px;
+		}
+		
+		
+div.hov
+{
+	border-style: ridge;
+	border-width: 2px;
+	margin: 5px;
+	padding-bottom: 3px;
+	border-radius: 10 10 10 10;
+	text-align: center;
+}
+div.hov:hover div.input
+{
+	display: inline;
+}
+	div.hovtitle
+	{
+		text-decoration: underline;
+		font-size: 24px;
+	}
+	div.equipmenttitle
+	{
+		text-decoration: underline;
+		font-size: 18px;
+	}
+	div.input
+	{
+		display: none;
+	}
+		div.inputcontainer
+		{
+			text-align: center;
+			border-top-style: ridge;
+			border-top-width: 3px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+		}
+
+div.groupname
+{
+	font-size: 26px;
+	color: green;
+	text-decoration: underline;
+}
+	div.squadron
+	{
+		border-style: ridge;
+		border-width: 2px;
+		margin: 5px;
+		padding-bottom: 3px;
+		border-radius: 10 10 10 10;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+		div.squadrontitle
+		{
+			font-size: 24px;
+			text-decoration: underline;
+			color: red;
+			font-weight: bold;
+		}
+			div.squadronitemname
+			{
+				text-decoration: normal;
+				font-size: 18px;
+			}
+		div.squadronhov
+		{
+			border-style: ridge;
+			border-width: 1px;
+			border-radius: 10px 10px 10px 10px;
+			margin: 5px;
+			padding-bottom: 3px;
+		}
+		div.squadronhov:hover div.input
+		{
+			display: block;
+		}
+			div.squadronhovtitle
+			{
+				text-decoration: underline;
+				font-size: 18px;
+				margin-bottom: 3px;
+			}
+			div.squadroncontrol
+			{
+				margin-bottom: 3px;
+			}
+			div.squadrontarget
+			{
+				font-weight: bold;
+				font-size: 20px;
+			}
+
+div.botship
+{
+	text-align: center;
+	border-style: ridge;
+	border-width: 5px;
+	border-radius: 10px 10px 10px 10px;
+	margin: 5px;
+	border-color: red;
+	margin-bottom: 15px;
+}
+	div.botname
+	{
+		border-bottom-style: ridge;
+		border-bottom-width: 5px;
+		border-bottom-color: red;
+		font-size: 30px;
+		color: purple;
+		font-weight: bold;
+	}
+	div.botshipname
+	{
+		font-size: 22px;
+	}
+	div.target
+	{
+		font-weight: bold;
+		font-size: 22px;
+		color: yellow;
+	}
+	div.damagetitle
+	{
+		border-bottom-style: ridge;
+		border-bottom-width: 2px;
+		font-size: 24px;
+	}
+			
+			
+div.functionbar
+{
+	position: fixed;
+	border-style: ridge;
+	border-width: 5px;
+	border-bottom: none;
+	width: 90.7%;
+	min-height: 7%;
+	bottom: 0px;
+	left: 5%;
+	background-color: black;
+}
+	div.log
+	{
+		position: absolute;
+		border-style: ridge;
+		border-width: 3px;
+		width: 30%;
+		height: 100%;
+		margin: 3px;
+		overflow: auto;
+	}
+	div.log:hover
+	{
+		position: fixed;
+		top: 10px;
+		left: 10px;
+		width: 50%;
+		background-color: black;
+		height: 97%;
+	}
+	div.nextround
+	{
+		position: absolute;
+		text-align: center;
+		width: 100%;
+	}
+		input.nextround
+		{
+			color: white;
+			border-width: 2px;
+			border-style: solid;
+			background-color: transparent;
+			outline: none;
+			font-size: 30px;
+			margin: 3px;
+			
+		}
+	div.back
+	{
+		font-size: 30px;
+		position: absolute;
+		right: 0px;
+		margin: 7px;
+	}

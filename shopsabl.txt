@@ -1,0 +1,6 @@
+emf  Hangár, rajegységek, raj->csatahajó,
+pdm pajzsok, rakétaelhárító, slot extenderek
+idf burkolat, rakéták, raj->pajzs
+mfa gépágyú, raj->raj
+gaa Löveg,  impulzus, rajburkolat
+cri Generátor, akku, raj pajzs

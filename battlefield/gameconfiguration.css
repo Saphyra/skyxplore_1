@@ -1,0 +1,222 @@
+﻿a
+{
+	border-style: solid;
+	border-width: 2px;
+}
+img.bar
+{
+	position: relative;
+	height: 100%;
+	border-radius: 10px 10px 10px 10px;
+}
+select
+{
+	color: white;
+	background-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	outline: none;
+	text-align: center;
+}
+
+
+div.background
+{
+	background-color: rgba(0,0,0,0.9);
+	top: 0px;
+	position: fixed;
+	overflow-y: auto;
+	width: 98%;
+	height: 98%;
+	margin-top: 5px;
+	border-style: ridge;
+	border-width: 5px;
+}
+	div.title
+	{
+		position: relative;
+		width: 100%;
+		font-size: 50px;
+		text-align: center;
+		border-bottom-style: ridge;
+		border-bottom-width: 5px;
+	}
+	div.shipcontainer
+	{
+		position: absolute;
+		width: 100%;
+		max-height: 83%;
+		overflow: auto;
+	}
+		div.typecontainer
+		{
+			padding: 3px;
+			border-style: solid;
+			border-width: 2px;
+			margin: 5px;
+		}
+			div.typetitle
+			{
+				text-align: center;
+				font-size: 40px;
+				margin-bottom: 10px;
+			}
+			div.bar
+			{
+				position: relative;
+				margin: auto;
+				border-style: solid;
+				border-width: 2px;
+				height: 24px;
+				width: 80%;
+				border-radius: 10px 10px 10px 10px;
+				background-color: black;
+				margin-bottom: 5px;
+			}
+				div.text
+				{
+					position: absolute;
+					right: 0px;
+					top: 1px;
+					display: inline;
+					width: 100%;
+					text-align: center;
+					font-size: 18px;
+					margin-bottom: 4px;
+				}
+					div.select
+					{
+						display: inline;
+						position: absolute;
+						right: 20px;
+						top: 1px;
+						font-size: 18px;
+					}
+	
+			table
+			{
+				margin: auto;
+				text-align: center;
+			}
+				th.weapon
+				{
+					font-size: 30px;
+				}
+				td.weapon
+				{
+					border-style: solid;
+					border-width: 2px;
+					vertical-align: top;
+					padding: 5px;
+				}
+					div.weaponitem
+					{
+						margin-top: 5px;
+						margin-bottom: 3px;
+					}
+					div.weapondamage
+					{
+						font-size: 20px;
+						text-decoration: underline;
+					}
+					div.weapontitle
+					{
+						font-size: 24px;
+					}
+			table.squadron
+			{
+				width: 98%;
+				border-style: solid;
+				border-width: 2px;
+				margin-bottom: 10px;
+			}
+				th.squadron
+				{
+					font-size: 30px;
+				}
+				td.squadron
+				{
+					width: 33.5%;
+					padding: 5px;
+				}
+					div.squadron
+					{
+						border-style: ridge;
+						border-width: 2px;
+						padding: 3px;
+						position: relative;
+						background-color: rgba(0,0,0,0.9);
+					}
+						div.squadronname
+						{
+							font-size: 20px;
+							margin-bottom: 7px;
+						}
+							div.squadronbars
+							{
+								
+							}
+								div.squadronbar
+								{
+									text-align: left;
+									position: relative;
+									margin: auto;
+									border-style: solid;
+									border-width: 2px;
+									height: 24px;
+									width: 80%;
+									border-radius: 10px 10px 10px 10px;
+									background-color: black;
+									margin-bottom: 5px;
+								}
+									div.squadrontext
+									{
+										
+										position: absolute;
+										right: 0px;
+										top: 2px;
+										display: inline;
+										width: 100%;
+										text-align: center;
+									}
+									
+	div.functionbar
+	{
+		bottom: 8%;
+		position: fixed;
+		width: 98%;
+		margin-top: 5px;
+		border-top-style: ridge;
+		border-top-width: 5px;
+		
+	}
+	div.start
+	{
+		position: absolute;
+		right: 0px;
+		width: 100%;
+		text-align: center;
+		margin: 6px;
+	}
+		input.submit
+		{
+			font-size:30px;
+			background-color: transparent;
+			color: white;
+		}
+	div.back
+	{
+		position: absolute;
+		right: 0px;
+		margin: 8px;
+
+	}
+		a.back
+		{
+			border-style: solid;
+			border-width: 2px;
+			font-size: 30px;
+			padding: 3px;
+		}
+		

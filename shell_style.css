@@ -1,0 +1,18 @@
+body
+{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 105%;
+	color: white;
+}
+a:visited, a:link
+{
+	color: white;
+}
+a:hover, input[type='submit']:hover
+{
+	color: red;
+	border-style: ridge;
+}

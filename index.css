@@ -1,0 +1,42 @@
+p
+{
+	text-align: justify;
+}
+div
+{
+	opacity: 0.8;
+	background-color: black;
+}
+
+div.introduction
+{
+	padding: 25px;
+	font-size: 30px;
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+p.head
+{
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 5px 5px 10px #FF0000;
+	font-style: italic;
+}
+a.start
+{
+	border-style: ridge;
+	border-width: 3px;
+	padding: 5px;
+	
+}
+p.start
+{
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 5px;
+}

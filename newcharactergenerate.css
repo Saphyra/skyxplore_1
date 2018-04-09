@@ -1,0 +1,58 @@
+div
+{
+	opacity: 0.8;
+	background-color: black;
+}
+
+div.base
+{
+	margin: auto;
+	padding: 10px;
+	width: 30%;
+	margin-top: 100px;
+}
+table
+{
+	margin: auto;
+	border-style: solid;
+	border-width: 2px;
+}
+h1, h2
+{
+	text-align: center;
+}
+h2
+{
+	margin: 0px;
+}
+td.submit
+{
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-color: grey;
+}
+input
+{
+	margin: 5px;
+	border-style: solid;
+	border-color: grey;
+	padding: 5px;
+	border-width: 3px;
+}
+input:focus
+{
+	border-color: red;
+}
+
+input[type='submit']
+{
+	color: white;
+	background-color: black;
+	font-weight: bold;
+	font-size: 25px;
+}
+input[type='submit']:hover
+{
+	color: red;
+	border-color: red;
+}

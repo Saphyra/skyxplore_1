@@ -1,0 +1,385 @@
+﻿a:hover
+{
+	border: none;
+}
+div.background
+{
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	top: 0px;
+	overflow-x: auto;
+	width: 98%;
+	height: 98%;
+	margin: auto;
+	margin-top: 5px;
+	border-style: ridge;
+	border-width: 5px;
+}
+	div.title
+	{
+		position: fixed;
+		top: 10px;
+		width: 98%;
+		text-align: center;
+		font-size: 50px;
+		font-weight: bold;
+		border-bottom-style: ridge;
+		border-bottom-width: 5px;
+		padding-bottom: 5px;
+		z-index: 0;
+	}
+	div.groupset
+	{
+		margin-top: 15px;
+		display: inline;
+		font-size: 25px;
+		position: absolute;
+		left: 10px;
+	}
+		a.groupset
+		{
+			border-style: solid;
+			border-width: 2px;
+			padding: 3px;
+		}
+	div.ship
+	{
+		left: 1%;
+		position: absolute;
+		width: 35.5%;
+		top: 80px;
+		text-align: center;
+		border-style: solid;
+		border-width: 3px;
+		height: 78%;
+		overflow-x: auto;
+	}
+		div.classchoose
+		{
+			font-size: 40px;
+			border-bottom-style: solid;
+			border-bottom-width: 2px;
+			height: 45px;
+		}
+			div.shipchoose
+			{
+				float: left;
+				width: 48%;
+				border-right-style: solid;
+				border-right-width: 2px;
+			}
+			div.squadronchoose
+			{
+				float: right;
+				width: 48%;
+			}
+			div.squadronidchoose
+			{
+				margin-top: 10px;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+				height: 35px;
+			}
+				select.squadronidchoose
+				{
+					font-size: 16px;
+					color: white;
+					background-color: black;
+					border-width: 3px;
+					border-style: solid;
+					border-radius: 10px 10px 10px 10px;
+					outline: none;
+				}
+				input.squadronidchoose
+				{
+					color: white;
+					border-width: 3px;
+					border-style: solid;
+					border-radius: 10px 10px 10px 10px;
+					background-color: transparent;
+					outline: none;
+				}
+				input.squadronidchoose:hover
+				{
+					color: red;
+				}
+				div.group
+				{
+					font-size: 20px;
+					font-weight: bold;
+				}
+		p.shipname
+		{
+			font-size: 40px;
+			margin: 0px;
+			margin-top: 15px;
+		}
+			p.squadrontype
+			{
+				margin: 0px;
+				font-size: 20px;
+			}
+		div.eq
+		{
+			margin: auto;
+			margin-top: 15px;
+			border-style: solid;
+			border-width: 3px;
+			width: 95%;
+		}
+			p.eq
+			{
+				margin: 5px;
+				font-size: 30px;
+			}
+			input.submit
+			{
+				color: white;
+				border-width: 2px;
+				border-style: solid;
+				border-radius: 10px 10px 10px 10px;
+				background-color: transparent;
+				outline: none;
+			}
+			div.item
+			{
+				width: 90%;
+				border-style: solid;
+				border-width: 1px;
+				margin: auto;
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+				div.item:hover div.itemdescription
+				{
+					display: inline;
+				}
+				div.item:hover
+				{
+					background-color: rgba(50,50,50,0.9);
+				}
+				div.shipsquadronname
+				{
+					border-bottom-style: solid;
+					border-bottom-width: 2px;
+					position: relative;
+					width: 100%;
+				}
+					p.shipsquadronname
+					{
+						display: inline;
+						font-size: 25px;
+						font-weight: bold;
+					}
+					div.itemname
+					{
+						font-size: 20px;
+						margin-bottom: 5px;
+						padding: 0px;
+					}
+				div.squadronaction
+				{
+					margin: 5px;
+				}
+					a.squadronaction
+					{
+						border-width: 1px;
+						border-style: solid;
+						border-radius: 5px 5px 5px 5px;
+						padding: 2px;
+					}
+				div.itemname
+				{
+					font-size: 20px;
+					font-weight: bold;
+				}
+				div.itemaction
+				{
+					margin: 5px;
+				}
+					a.itemaction
+					{
+						border-width: 1px;
+						border-style: solid;
+						border-radius: 5px 5px 5px 5px;
+						padding: 2px;
+					}
+					input.ammo
+					{
+						outline: none;
+						background-color: transparent;
+						color: white;
+						border-style: solid;
+						border-width: 2px;
+						border-radius: 10px 10px 10px 10px;
+						width: 50px;
+					}
+					input.ammo:focus
+					{
+						border-style: solid;
+						border-width: 2px;
+						border-color: red;
+					}
+					input.ammosubmit
+					{
+						background-color: transparent;
+						color: white;
+						border-style: solid;
+						border-width: 2px;
+						border-radius: 10px 10px 10px 10px;
+					}
+					input.ammosubmit:hover
+					{
+						color: red;
+					}
+	div.equipment
+	{
+		right: 27%;
+		position: absolute;
+		width: 35%;
+		top: 80px;
+		text-align: center;
+		border-style: solid;
+		border-width: 3px;
+		height: 78%;
+		overflow-x: auto;
+	}
+		p.equipment
+		{
+			font-size: 40px;
+			margin: 0px;
+		}
+		div.szuro
+		{
+			margin: auto;
+			width: 100%;
+			height: 35px;
+			border-bottom-style: solid;
+			border-top-style: solid;
+			border-bottom-width: 2px;
+			border-top-width: 2px;
+			font-size: 20px;
+			padding-top: 8px;
+			padding-bottom: 0px;
+		}
+			div.type
+			{
+				display: inline;
+			}
+				select.type
+				{
+					font-size: 16px;
+					color: white;
+					background-color: black;
+					border-width: 3px;
+					border-style: solid;
+					border-radius: 10px 10px 10px 10px;
+					outline: none;
+				}
+			div.level
+			{
+				display: inline;
+			}
+				select.level
+				{
+					color: white;
+					background-color: black;
+					border-width: 3px;
+					border-style: solid;
+					border-radius: 10px 10px 10px 10px;
+					outline: none;
+				}
+			div.search
+			{
+				display: inline;
+			}
+				input.search
+				{
+					color: white;
+					border-width: 3px;
+					border-style: solid;
+					border-radius: 10px 10px 10px 10px;
+					background-color: transparent;
+					outline: none;
+				}
+				input.search:hover
+				{
+					color: red;
+				}
+		div.equipitem
+		{
+			border-style: solid;
+			border-width: 1px;
+			margin: auto;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			width: 90%;
+		}
+		div.equipitem:hover
+		{
+			background-color: rgba(50,50,50,0.9);
+		}
+			div.itemdescription
+			{
+				text-align: left;
+				position: fixed;
+				right: 2.5%;
+				top: 21%;
+				width: 23.5%;
+				height: 50px;
+				display: none;
+			}
+			div.equipitem:hover div.itemdescription
+			{
+				display: inline;
+			}
+		div.description
+		{
+			position: absolute;
+			right: 1%;
+			width: 25%;
+			top: 80px;
+			text-align: center;
+			border-style: solid;
+			border-width: 3px;
+			height: 78%;
+		}
+			div.desctitle
+			{
+				font-size: 40px;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+			}
+div.logout
+{
+	position: fixed;
+	bottom: 17px;
+	left: 17px;
+	font-size: 30px;
+}
+div.equall
+{
+	position: fixed;
+	bottom: 17px;
+	left: 20%;
+	font-size: 30px;
+	width: 60%;
+	text-align: center;
+}
+div.back
+{
+	position: fixed;
+	bottom: 17px;
+	right: 17px;
+	font-size: 30px;
+}
+	a.logout, a.back, a.equall
+	{
+		border-style: solid;
+		border-width: 2px;
+		padding: 3px;
+	}
+	a.logout:hover, a.back:hover
+	{
+		border-width: 3px;
+	}

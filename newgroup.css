@@ -1,0 +1,70 @@
+﻿div
+{
+	margin-top: 5px;
+}
+select
+{
+	color: white;
+	background-color: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	outline: none;
+	text-align: center;
+	font-size: 20px;
+}
+div.container
+{
+	border-style: ridge;
+	border-width: 4px;
+	background-color: rgba(0,0,0,0.9);
+	margin: auto;
+	width: 45%;
+	margin-top: 10%;
+	text-align: center;
+}
+	div.title
+	{		
+		font-size: 40px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	div.input
+	{
+		font-size: 23px;
+	}
+		input.text
+		{
+			border-style: solid;
+			border-width: 2px;
+			border-radius: 10px;
+			font-size: 20px;
+			background-color: transparent;
+			color: white;
+			padding: 3px;
+		}
+		input.text:focus
+		{
+			border-color: red;
+		}
+		input.submit
+		{
+			border-style: solid;
+			border-width: 2px;
+			border-radius: 10px;
+			color: white;
+			background-color: transparent;
+			font-size: 23px;
+		}
+	div.back
+	{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+		a.back
+		{
+			font-size: 30px;
+			padding: 3px;
+			border-style: solid;
+			border-width: 2px;
+		}

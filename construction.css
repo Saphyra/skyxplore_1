@@ -1,0 +1,232 @@
+div.background
+{
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+	top: 0px;
+	overflow-x: auto;
+	width: 98%;
+	height: 98%;
+	margin: auto;
+	margin-top: 5px;
+	border-style: ridge;
+	border-width: 5px;
+}
+div.title
+{
+	position: fixed;
+	top: 10px;
+	width: 98%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	border-bottom-style: ridge;
+	border-bottom-width: 5px;
+	padding-bottom: 5px;
+}
+
+	div.szuro
+	{
+		position: fixed;
+		width: 95%;
+		top: 80px;
+		margin-left: 2%;
+		height: 40px;
+		border-style: solid;
+		border-width: 3px;
+		font-size: 30px;
+	}
+		div.type
+		{
+			display: inline;
+			margin-left: 30%;
+		}
+			select.type
+			{
+				font-size: 20px;
+				color: white;
+				background-color: black;
+				border-width: 3px;
+				border-style: solid;
+				border-radius: 10px 10px 10px 10px;
+				outline: none;
+                text-align: center;
+			}
+		div.level
+		{
+			display: inline;
+		}
+			select.level
+			{
+				font-size: 20px;
+				color: white;
+				background-color: black;
+				border-width: 3px;
+				border-style: solid;
+				border-radius: 10px 10px 10px 10px;
+				outline: none;
+			}
+		div.search
+		{
+			display: inline;
+		}
+			input.search
+			{
+				font-size: 22px;
+				color: white;
+				border-width: 3px;
+				border-style: solid;
+				border-radius: 10px 10px 10px 10px;
+				background-color: transparent;
+				outline: none;
+			}
+			input.search:hover
+			{
+				color: red;
+				border-style: ridge;
+			}
+	div.container
+	{
+		border-style: solid;
+		border-width: 3px;
+		border-top-style: none;
+		position: fixed;
+		width: 95%;
+		top: 126px;
+		margin-left: 2%;
+		overflow-x: auto;
+		height: 70%;
+	}
+		div.item
+		{
+			margin-left: 2%;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			width: 70%;
+			border-style: double;
+			border-width: 3px;
+			padding-top: 5px;
+		}
+		div.item:hover
+		{
+			background-color: rgba(100,100,100,0.9);
+		}
+			div.itemname
+			{
+				text-align: center;
+				font-size: 27px;
+			}
+			div.itemdescription
+			{
+				color: transparent;
+				position: fixed;
+				right: 4%;
+				top: 140px;
+				border-style: double;
+				border-width: 3px;
+				border-color: white;
+				width: 24%;
+				height: 65%;
+			}
+			div.desctitle
+			{
+				font-size: 40px;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+				text-align: center;
+				color: white;
+			}
+				div.item:hover div.itemdescription
+				{
+					color: white;
+				}
+				div.item div.itemdescription:hover
+				{
+					color: transparent;
+				}
+			div.completebar
+			{
+				position: relative;
+				margin: auto;
+				border-style: solid;
+				border-width: 3px;
+				height: 20px;
+				width: 80%;
+				border-radius: 10px 10px 10px 10px;
+			}
+				img.percent
+				{
+					position: relative;
+					left: -1px;
+					background-color: green;
+					height: 100%;
+					border-radius: 10px 10px 10px 10px;
+				}
+				div.percenttext
+				{
+					position: absolute;
+					right: 0px;
+					display: inline;
+					width: 100%;
+					text-align: center;
+					font-size: 18px;
+					margin-bottom: 4px;
+				}
+			div.finish
+			{
+				text-align: center;
+				line-height: 5px;
+				font-size: 20px;
+			}
+				input.finish
+				{
+					font-size: 20px;
+					color: white;
+					border-width: 3px;
+					border-style: solid;
+					border-radius: 10px 10px 10px 10px;
+					background-color: transparent;
+					outline: none;
+					margin: -5px;
+				}
+				input.finish[disabled='disabled']
+				{
+					color: rgba(50,50,50,0.8);
+					border-color: white;
+				}
+				input.finish:hover
+				{
+					border-color: red;
+				}
+div.logout
+{
+	position: fixed;
+	bottom: 17px;
+	left: 17px;
+	font-size: 30px;
+}
+div.money
+{
+	position: absolute;
+	bottom: 0px;
+	left: 40%;
+	width: 20%;
+	border-style: solid;
+	border-width: 2px;
+	padding: 3px;
+	margin-bottom: 7px;
+	text-align: center;
+	font-size: 20px;
+}
+div.back
+{
+	position: fixed;
+	bottom: 17px;
+	right: 17px;
+	font-size: 30px;
+}
+	a.logout, a.back
+	{
+		border-style: solid;
+		border-width: 2px;
+		padding: 3px;
+	}

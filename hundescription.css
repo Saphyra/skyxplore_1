@@ -1,0 +1,25 @@
+﻿div.itemdescription
+{
+	text-align: center;
+}
+	div.property_name
+	{
+		font-size: 24px;
+		font-weight: bold;
+		text-decoration: underline;
+		margin-bottom: 10px;
+	}
+	div.property_title
+	{
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 10px;
+	}
+	div.hint
+	{
+		position: absolute;
+		bottom: 0px;
+		font-size: 20px;
+		border-top-style: solid;
+		border-top-width: 1px;
+	}
